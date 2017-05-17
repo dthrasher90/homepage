@@ -6,9 +6,30 @@ body{
 
     position: fixed;
     width: 100%;
-    margin-left: -5px;
+    font: arial;
+    text-shadow: 1px, 1px, black;
+    background-color: black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background: linear-gradient(to bottom right, black, dimgrey); /* Standard syntax */
+
     
 }
+
+#navBar a{
+    
+    color:whitesmoke;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#navBar a:hover{
+    
+    color:dimgrey;
+}
+
+
+
 #home {
     min-height: 800px;
     min-width: 100%;
@@ -76,6 +97,7 @@ body{
     
     height: 800px;
     width: 100%;
+
     font-family: arial;
     font-size: 18px;
     font-weight: bolder;
