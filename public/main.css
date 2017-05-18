@@ -93,8 +93,13 @@ body{
     font-weight: bolder;
     color: saddlebrown;
     background-color: papayawhip;
+<<<<<<< HEAD
     padding-top: 60px;
 
+=======
+    padding-top: 30px;
+    border: 4px solid green;
+>>>>>>> 14ad199847ad0732cd457c2e67d25aad9bd45e6b
 
 }
 
